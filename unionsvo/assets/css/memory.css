@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{
+    
+    font-family: Roboto,serif;
+    font-weight: 400;
+    
+   
+
+}
+
+
+/***** Section Header*****/
+header{
+    background-color: #022003;
+   
+}
+.navbar{
+           
+}
+
+.navbar-brand img {
+    width: 120px;
+    height: 100px;
+    flex:none;
+    order: 0;
+    flex-grow: 0;    
+}
+
+.navbar-brand{
+    color: #EEE506;
+    
+}
+
+.navbar-toggler{
+    background-color: #EEE506;
+}
+
+.nav-link{ 
+ color: #EEE506;
+
+}
+
+.navbar-nav .nav-link.active{
+    color: aquamarine;
+}
+
+/***** End Header *****/
+
+
+/***** Section  memory*****/
+.content_memory{
+    background-color: #182002;
+    color: #EEE506;
+    height: 1200px;
+    max-height: 1300px;
+}
+
+.content_memory .container{
+    background: #182002;
+}
+.search_form{
+    color: #EEE506;
+    background: #182002;
+}
+.mem{
+    background-color: #03733D;
+    color: #EEE506;
+    width: 250px;    
+}
+/***** End Section *****/
+
+/* forms*/
+
+
+
+/***** Footer*****/
+footer{
+    background-color: #022003;
+    color: #EEE506;
+    height: auto;
+}
+
+.foot_link{
+text-decoration: none;
+color: #EEE506;
+}
+/***** End Footer *****/

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{
+    
+    font-family: Roboto,serif;
+    font-weight: 400;
+    
+   
+
+}
+
+
+/***** Section Header*****/
+header{
+    background-color: #022003;
+   
+}
+
+
+.navbar-brand img {
+    width: 120px;
+    height: 100px;
+    flex:none;
+    order: 0;
+    flex-grow: 0;    
+}
+
+.navbar-brand{
+    color: #EEE506;
+    
+}
+
+.navbar-toggler{
+    background-color: #EEE506;
+}
+
+.nav-link{ 
+ color: #EEE506;
+
+}
+
+.navbar-nav .nav-link.active{
+    color: aquamarine;
+}
+
+/***** End Header *****/
+
+/***** Section main*****/
+.content_events{
+    background-color: #182002;
+    color: #EEE506;
+    height: 1200px;
+    max-height: 1300px;
+
+}
+.enter{
+    background-color: #03733D;
+    color: #EEE506;
+    width: 250px;
+}
+.event_all img{
+    width: 50px;
+    height: 50px;
+}
+
+/*
+post content
+*/
+
+.content_events .header_block{
+    margin: 30px;
+}
+.content_events .post{
+    margin-bottom: 20px;
+    height: 450px;
+
+}
+
+.content_events .post .post_content .img img{
+   
+    height: 200px;
+    margin-bottom:20px;
+
+}
+.content_events .post_text{
+    background: #516304;
+    margin-bottom: 20px;    
+}
+
+
+/***** End Section *****/
+.content_events .post_text h3 a{
+    text-decoration: none;
+    color: #EEE506;
+    
+}
+.content_events .post_text h3 a:hover{
+    text-decoration: underline;
+    color: #EEE506;
+}
+.content_events .post_text i{
+    margin-bottom: 20px;
+}
+.content_events .post_text p{
+    margin-top: 20px;
+}
+/***** Footer*****/
+footer{
+    background-color: #022003;
+    color: #EEE506;
+    height: auto;
+}
+
+.foot_link{
+text-decoration: none;
+color: #EEE506;
+}
+/***** End Footer *****/

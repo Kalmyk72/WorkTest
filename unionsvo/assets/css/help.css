@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{
+    
+    font-family: Roboto,serif;
+    font-weight: 400;
+ 
+   
+
+}
+
+
+/***** Section Header*****/
+header{
+    background-color: #022003;
+   
+}
+.navbar{
+           
+}
+
+.navbar-brand img {
+    width: 120px;
+    height: 100px;
+    flex:none;
+    order: 0;
+    flex-grow: 0;    
+}
+
+.navbar-brand{
+    color: #EEE506;
+    
+}
+
+.navbar-toggler{
+    background-color: #EEE506;
+}
+
+.nav-link{ 
+ color: #EEE506;
+
+}
+
+.navbar-nav .nav-link.active{
+    color: aquamarine;
+}
+
+/***** End Header *****/
+
+
+/***** Section  memory*****/
+.content_help{
+    background-color: #182002;
+    color: #EEE506;
+    height: 1200px;
+    max-height: 1300px;
+}
+
+
+.help{
+    background-color: #03733D;
+    color: #EEE506;
+    width: 250px;
+}
+.mod .modal-content{
+    background-color: #516304;
+    color: #EEE506;
+}
+.mod .modal-header{
+    background-color: #516304;
+    color: #EEE506;
+}
+#mod_clos{
+    background-color: #EEE506;
+}
+#sent_mod{
+    background-color: #EEE506
+}
+.mod .modal-body{
+    background-color: #516304;
+    color: #EEE506;
+}
+.mod .modal-footer{
+    background-color: #516304;
+    color: #EEE506;
+}
+/***** End Section *****/
+
+/***** Footer*****/
+footer{
+    background-color: #022003;
+    color: #EEE506;
+    height: auto;
+}
+
+.foot_link{
+text-decoration: none;
+color: #EEE506;
+}
+/***** End Footer *****/
